@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <title>hw 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+  <body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQU0L4wGZj3h1LdIJqJMxUGxvZpY2UID5yg&s" height= 40 >
+                <h1>PikaPika</h1>
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="https://pokemonletsgo.pokemon.com/assets/img/home/promos/letsgo_art1.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcom to PikaPika</h1>
+            <p class="lead">a Pokémon paradise! Immerse yourself in regions inspired by Kanto, Johto, and more. Enjoy thrilling rides, interactive Pokémon battles, and meet iconic Pokémon like Pikachu and Eevee. From exciting attractions to themed restaurants and exclusive merchandise, it's the ultimate adventure for fans of all ages. Catch the magic today!            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Introduction</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Buy ticket</button>
+            </div>
+          </div>
+        </div>
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Events</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(https://archives.bulbagarden.net/media/upload/thumb/9/9e/0493Arceus.png/800px-0493Arceus.png);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Legendary Pokémon Hunt</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                    <small>Arceus</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('data:image/jpeg;base64,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');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Pokémon Trainer Championship</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                    <small>Battle</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFeskS8t31mI8aQgTU58YwfY73ISYkL_EWw&s');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Pikachu Parade</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                    <small>PikaPika</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                    <small>8d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div id="myCarousel" class="carousel slide mb-6 pointer-event" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqfDv7B9OZfXBRF0jiw8gOxt6q-wjksmbEZw&s" class="d-block w-100"/>
+              <div class="container">
+                <div class="carousel-caption text-start">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_NC5WohO-V14XcVoQaDvc81Otnj9ulGWHJA&s" class="d-block w-100"/>
+              <div class="container">
+                <div class="carousel-caption">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-5G1OYMU1lnBKAci_TvZT6nb95QuOsSwlww&s" class="d-block w-100"/>
+              <div class="container">
+                <div class="carousel-caption text-end">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy; 2024 Company, Inc</p>
+        </footer>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
